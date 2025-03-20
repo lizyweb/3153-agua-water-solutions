@@ -1,0 +1,138 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.about .section-title {
+  margin-bottom: 60px;
+}
+
+.about .content {
+  /* background:#d6143b; */
+  /* background: #EDF1FC; */
+  /* color:#EDF1FC; */
+  padding:3rem 0;
+}
+
+.about .content .img-overlap {
+  margin-top: 10px;
+}
+
+.about p {
+  color: #1c1c1c;
+}
+
+.about .content-title {
+  /* color: #EDF1FC; */
+  font-weight: 300;
+  text-align: left;
+}
+
+.about .content-title strong {
+  font-weight: 700;
+}
+
+.about .content-subtitle {
+  font-weight: 300;
+  /* color: var(--contrast-color); */
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.accordion-header button{
+ color:var(--brand) !important;
+ background-color: rgba(77, 84, 181, 0.363);
+}
+.accordion-header button:active{
+  background-color: rgb(194, 9, 193,.1);
+}
+.nav-brand img {
+    max-height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+.nav-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+ /* Path */
+.banner-area {
+  position: relative;
+  min-height: 300px;
+  color: #fff;
+}
+.banner-area-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/image-2/img7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-area-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image-2/path3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 58px;
+  font-weight: 900;
+}
+
+@media (max-width: 767px) {
+  .banner-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner-title {
+    font-size: 32px;
+  }
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.banner-heading {
+  text-align: center;
+}
+
+.breadcrumb {
+  padding: 0;
+  background: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.breadcrumb li a,
+.breadcrumb .breadcrumb-item,
+.breadcrumb li a:focus {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #fff;
+}
+
